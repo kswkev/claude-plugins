@@ -1,0 +1,11 @@
+{
+  "name": "kswkev-plugins",
+  "owner": { "name": "kswkev" },
+  "plugins": [
+    {
+      "name": "usage-bars",
+      "source": "./usage-bars",
+      "description": "Session and weekly usage bars above the prompt, with reset times. Toggle with /usage-bars."
+    }
+  ]
+}

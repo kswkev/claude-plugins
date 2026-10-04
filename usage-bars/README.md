@@ -16,6 +16,25 @@ Rate-limit figures are only reported on a Claude subscription, and only after th
 
 ## Install
 
+### From a running Claude Code terminal (no restart)
+
+Type these slash commands at the prompt:
+
+```
+/plugin marketplace add kswkev/claude-plugins
+/plugin install usage-bars@kswkev-plugins
+/reload-plugins
+```
+
+The bars show up above the prompt after the next response, once Claude Code has a usage reading.
+If you've cloned this repo, you can pass its local path to `/plugin marketplace add` instead
+(for example `/plugin marketplace add ~/code/claude-plugins`). The plugin is then read straight
+from that folder, so after editing it you only need to run `/reload-plugins`.
+
+To turn it off later: `/plugin disable usage-bars@kswkev-plugins` (or just `/usage-bars` to hide the bars).
+
+### For one launch only
+
 ```
 claude --plugin-dir /path/to/usage-bars
 ```
