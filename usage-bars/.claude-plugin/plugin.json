@@ -1,0 +1,6 @@
+{
+  "name": "usage-bars",
+  "version": "0.1.0",
+  "description": "Two stacked bars above the prompt: current session (5h) and this week's usage, with reset times. Toggle with /usage-bars.",
+  "types": "./types/index.d.ts"
+}
